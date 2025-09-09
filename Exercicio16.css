@@ -1,0 +1,28 @@
+body {
+    background-color: #f5ecec;
+    font-family: Arial, sans-serif;
+}
+
+h1, p {
+    color: white;
+}
+
+.im {
+    margin: 40px auto; /* Espaço externo */
+    padding: 20px; /* Espaço interno */
+    width: 350px;
+    background-color: #cf2a2a;
+    background-origin: content-box; /* Origem do fundo */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Sombreamento */
+    text-align: center;
+}
+
+.imagem-borda {
+    border-width: 5px; /* Espessura da borda */
+    border-color: #e9dc2c; /* Cor da borda */
+    border-style: solid; /* Tipo da borda */
+    border-radius: 50px; /* Bordas arredondadas */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* Sombra na imagem */
+    max-width: 100%;
+}
